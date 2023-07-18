@@ -8,6 +8,7 @@ import ru.netology.springboot.systemProfile.SystemProfile;
 @RestController
 @RequestMapping("/")
 public class ProfileController {
+
     private SystemProfile profile;
 
     public ProfileController(SystemProfile profile) {
